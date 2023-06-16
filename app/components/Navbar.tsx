@@ -56,6 +56,7 @@ const Navbar = () => {
 									className={"block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100"}
 									activeClass='active'
 									spy={true}
+									smooth={true}
 									offset={-100}
 									duration={500}
 									onClick={() => setNavbar(!navbar)}
