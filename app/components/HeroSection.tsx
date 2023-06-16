@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
+import LinkHref from 'next/link'
 import { Link } from 'react-scroll/modules'
 import { HiArrowDown } from 'react-icons/hi'
 
@@ -18,17 +19,13 @@ const HeroSection = () => {
                     I am a <span className='text-pink-700 font-semibold'>Software Engineer</span> and <span className='text-pink-700 font-semibold'>Game Developer</span> based in Copenhagen, Denmark. 
                     I love working with software that challenges me, and currently building on my <span className='text-pink-700 font-semibold'>AI</span> and <span className='text-pink-700 font-semibold'>Deep Learning</span> skills.
                 </p>
-                <Link
-                    to='projects'
-                    className={"text-neutral-100 font-semibold px-6 py-3 bg-pink-700 rounded shadow hover:bg-pink-800"}
-                    activeClass='active'
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}    
+                <LinkHref
+                    href={'/resume.pdf'}
+                    target='_blank'
+                    className={"text-neutral-100 font-semibold px-6 py-3 bg-pink-700 rounded shadow hover:bg-pink-800"}  
                 >
-                    Projects
-                </Link>
+                    See my CV here
+                </LinkHref>
             </div>
         </div>
 
