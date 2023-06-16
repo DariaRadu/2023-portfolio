@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Saltsea Chronicles",
     description:
-      "Upcoming game from Die Gute Fabrik that I have worked on as a full-time programmer. I have been tech-lead on Spoils, the card game included with the game, which features a cooperative deep learning AI model for the NPCs, as well as working on accessibility and game infrastructure on the main game",
+      "Upcoming game from Die Gute Fabrik that I have worked on as a full-time programmer. I have been tech-lead on Spoils, the card game included with the game, which features a cooperative deep learning AI model for the NPCs, as well as working on accessibility, audio and game infrastructure on the main game.",
     image: "/SaltSea.jpg",
     link: "https://www.saltseachronicles.com/",
   },
@@ -54,7 +54,7 @@ const ProjectsSection = () => {
             {projects.map((project, idx) => {
                 return (
                     <div key={idx}>
-                        <SlideUp offset='-300px 0px -300px 0px'>
+                        <SlideUp offset='-100px 0px -100px 0px'>
                             <div className='flex flex-col animate-slideUpCubicBezier animation-delay-2 md:flex-row md:space-x-12 mt-8'>
                                 <div className='md:w-1/2'>
                                     <Link href={project.link} target='_blank'>
@@ -68,8 +68,8 @@ const ProjectsSection = () => {
                                     </Link>
                                 </div>
                                 <div className='md:w-1/2'>
-                                    <h2 className='text-3xl font-bold mb-3'>{project.name}</h2>
-                                    <p className='leading-7 text-neutral-600 dark:text-neutral-600 mb-3'>{project.description}</p>
+                                    <h2 className='text-3xl font-bold mt-2 mb-3'>{project.name}</h2>
+                                    <p className='leading-7 text-neutral-600 dark:text-neutral-200 mb-3'>{project.description}</p>
                                     <Link href={project.link} target='_blank'>
                                         <BsArrowUpRightSquare
                                             size={30}

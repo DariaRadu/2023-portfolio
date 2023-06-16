@@ -33,9 +33,11 @@ const Navbar = () => {
     return (
 	<header className='w-full mx-auto px-20 bg-white shadow fixed top-0 z-50 dark:bg-stone-900 dark:border-b dark:border-stone-600'>
         <div className='flex justify-between md:items-center'>
-			<div className='py-5 block'>
-				<h2 className='text-2xl font-bold'>Daria Radu</h2>
-			</div>
+			<Link to='home'>
+				<div className='py-5 block'>
+					<h2 className='text-2xl font-bold'>Daria Radu</h2>
+				</div>
+			</Link>
 
 			<div>
 				<div className='md:hidden py-5'>
@@ -53,7 +55,7 @@ const Navbar = () => {
 								<Link
 									key={idx}
 									to={item.page}
-									className={"block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100"}
+									className={"block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"}
 									activeClass='active'
 									spy={true}
 									smooth={true}
