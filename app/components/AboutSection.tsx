@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 
-const skills = ["Web Development", "JavaScript", "Node.js", "React", "Backend Development", "Game Development","C#", "Unity", "Machine Learning", "Python", "Databases", "Docker", "Git"]
+const skills = ["Web Development", "JavaScript", "Node.js", "React", "Backend Development", "Game Development","C#", "C++", "Unreal", "Unity", "Machine Learning", "Python", "Databases", "Docker", "Git", "Project Management", "Team Leadership"]
 
 const AboutSection = () => {
   return (
     <section id='about'>
-        <div className='my-12 pb-12 md:pt-16 md:pb-48'>
+        <div className='my-12 pb-12 md:pt-16 md:pb-24'>
             <h1 className='text-center font-bold text-4xl'>
                 About Me
                 <hr className='w-6 h-1 mx-auto my-4 bg-pink-500 border-0 rounded'></hr>
@@ -15,24 +15,24 @@ const AboutSection = () => {
                 <div className='md:w-1/2'>
                     <h2 className='text-center text-2xl font-bold mb-6 md:text-left'>Get to know me!</h2>
                     <p>
-                        {' '}
-                        Hi, my name is Daria and I am a <span className='font-semibold'>highly ambitious</span>, <span className='font-semibold'>self-motivated</span>, 
-                        and <span className='font-semibold'>creative</span> software and game engineer based in Copenhagen, Denmark.
+                        Hi, my name is Daria, and I am a <span className='font-semibold'>Software Engineer</span> and <span className='font-semibold'>Game Developer</span> based in Copenhagen, Denmark. 
+                        I am passionate about web development, game programming, software infrastructure and team leadership. I love experimenting with tech and AI while creating production-ready solutions for customers.
                     </p>
                     <br/>
                     <p>
-                        I graduated with a <span className='font-semibold'>MSc in Games Technology</span> (2021) at ITU (IT University of Copenhagen) and a <span className='font-semibold'>BA in Web Development</span> (2019) at KEA (Copenhagen School of Design and Technology) 
-                        and have been getting practical work experience throughout my university journey before transitioning into full-time.
+                        I am currently working as a <span className='font-semibold'>Software Engineer (Game Tech Integration focused)</span> at <span className='font-semibold'>modl.ai</span>, where I lead teams towards delivering projects in <span className='font-semibold'>Unity</span> and <span className='font-semibold'>Unreal Engine</span>, leveraging expertise in <span className='font-semibold'>C#</span>, <span className='font-semibold'>C++</span>, and <span className='font-semibold'>Python</span> and creating innovative AI solutions for games.
                     </p>
                     <br/>
                     <p>
-                        I have worked for many years as a back-end developer, developing APIs, maintaining databases, and developing a vast number of new features. Most recently, I have been
-                        working as a game engineer (with an AI focus) with Die Gute Fabrik, soon to launch our new game - Saltsea Chronicles.
+                        I hold a <span className='font-semibold'>Master’s degree in Games Technology</span> from ITU (IT University of Copenhagen) and have contributed to projects like <span className='font-semibold'>Saltsea Chronicles</span>, where I led the development of an innovative card game, Spoils. My technical expertise includes developing and designing machine learning models with <span className='font-semibold'>Deep Reinforcement Learning</span> and Unity ML-Agents.
                     </p>
                     <br/>
                     <p>
-                        I love to constantly challenge myself and develop new skills, hence why I am currently dabbing into <span className='font-semibold text-pink-700'>AI and Machine Learning</span>, 
-                        and my first work in this domain will soon be available to the public in Die Gute Fabrik's new game, Saltsea Chronicles.
+                        In addition to game development, I have experience as a <span className='font-semibold'>full-stack developer</span>, working on backend and frontend systems using <span className='font-semibold'>Node.js</span>, <span className='font-semibold'>React.js</span>, and <span className='font-semibold'>TypeScript</span>. I enjoy building robust, scalable solutions that enhance user experiences.
+                    </p>
+                    <br/>
+                    <p>
+                        I am also always eager to share my knowledge and skills with as many people as possible, hence why I have been a conference speaker at highly coveted industry events, such as <span className='font-semibold'>Game Developers' Conference (GDC)</span> and <span className='font-semibold'>Devcom</span>.
                     </p>
                 </div>
                 <div className='md:w-1/2'>

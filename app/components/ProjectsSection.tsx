@@ -8,20 +8,20 @@ const projects = [
   {
     name: "Saltsea Chronicles",
     description:
-      "Upcoming game from Die Gute Fabrik that I have worked on as a full-time programmer. I have been tech-lead on Spoils, the card game included with the game, which features a cooperative deep learning AI model for the NPCs, as well as working on accessibility, audio and game infrastructure on the main game.",
+      "Critically acclaimed game from Die Gute Fabrik that I have worked on as a full-time programmer. I have been tech-lead on Spoils, the novel card game included with the game, which features a cooperative deep learning AI model for the NPCs. In addition, my work on the main game also included accessibility, audio and game infrastructure.",
     image: "/SaltSea.jpg",
     link: "https://www.saltseachronicles.com/",
   },
   {
     name: "Forest Daemons",
-    description: "Light-hearted, narrative driven game about a village full of daemons that are manifestations of human superstitions. The team consisted of 6 people, and I was part of the Development Team, creating a dialogue system using Unity and Inky.",
+    description: "Light-hearted, narrative driven game about a village full of daemons that are manifestations of human superstitions. The team consisted of 6 people, and I was part of the Programming Team, creating a dialogue system using Unity and Inky.",
     image: "/ForestDaemons.jpg",
     link: "https://ahritarded.itch.io/forest-daemons",
   },
   {
     name: "Settings: The Game",
     description:
-      "A puzzle meta-game about setting the settings of a game you never get to play. The team consisted of 6 people (3 game designers and 3 game developers), and I was part of the Development team on implementing the puzzle logic and levels in Unity. ",
+      "A puzzle meta-game about setting the settings of a game you never get to play. The team consisted of 6 people (3 game designers and 3 game programmers), and I was part of the Programming team on implementing the puzzle logic and levels in Unity. ",
     image: "/settings.png",
     link: "https://massimasala.itch.io/settings-the-game",
   },
@@ -35,8 +35,8 @@ const projects = [
   {
     name: "Programming Projects",
     description:
-      "I have made a few several programming projects, from website making (like this one!) to motion matching experiments - find my code on my Github page.",
-    image: "/itrcd.png",
+      "I have made a few several programming projects, from website making (like this one!) to motion matching experiments and LLM chatbots - find my code on my Github page.",
+    image: "/llm.png",
     link: "https://github.com/DariaRadu",
   },
 ]
@@ -44,7 +44,7 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects">
+    <section id="projects" className='pb-12 md:pb-48'>
         <h1 className='text-center font-bold text-4xl'>
             Projects
             <hr className='w-6 h-1 mx-auto my-4 bg-pink-500 border-0 rounded'></hr>

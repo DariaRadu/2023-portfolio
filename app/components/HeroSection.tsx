@@ -4,6 +4,7 @@ import Image from 'next/image'
 import LinkHref from 'next/link'
 import { Link } from 'react-scroll/modules'
 import { HiArrowDown } from 'react-icons/hi'
+import { NewLineKind } from 'typescript'
 
 const HeroSection = () => {
   return (
@@ -16,8 +17,10 @@ const HeroSection = () => {
             <div className='md:w-3/5 md:mt-2'>
                 <h1 className='font-bold text-4xl mt-6 md:text-6xl md:mt-0'>Hi, I'm Daria!</h1>
                 <p className='text-lg mt-4 mb-6 md:text-2xl'>
-                    I am a <span className='text-pink-700 font-semibold'>Software Engineer</span> and <span className='text-pink-700 font-semibold'>Game Developer</span> based in Copenhagen, Denmark. 
-                    I love working with software that challenges me, and currently building on my <span className='text-pink-700 font-semibold'>AI</span> and <span className='text-pink-700 font-semibold'>Deep Learning</span> skills.
+                    I am a <span className='text-pink-700 font-semibold'>Software Engineer</span> and <span className='text-pink-700 font-semibold'>Game Developer</span> based in Copenhagen, Denmark, passionate about tackling complex challenges through innovative software solutions.
+                </p>
+                <p className='text-lg mt-4 mb-6 md:text-2xl'>
+                    Currently focused on advancing skills in <span className='text-pink-700 font-semibold'>AI</span> and <span className='text-pink-700 font-semibold'>Deep Learning</span> to create smarter and interactive experiences.
                 </p>
                 <LinkHref
                     href={'/resume.pdf'}
