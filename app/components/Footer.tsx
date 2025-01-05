@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import {
     AiOutlineGithub,
     AiOutlineTwitter,
@@ -12,20 +13,26 @@ function Footer() {
         <div className='mx-auto p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between'>
             <div className='text-neutral-500 dark:text-neutral-100'>© Daria Radu</div>
             <div className='flex flex-row items-center justify-center space-x-2 mb-1'>
-                <AiOutlineGithub
-                    className='hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100'
-                    size={30}
-                />
+                <Link href={'https://github.com/DariaRadu/'} target='_blank'>
+                    <AiOutlineGithub
+                        className='hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100'
+                        size={30}
+                    />
+                </Link>
 
-                <AiOutlineLinkedin
-                    className='hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100'
-                    size={30}
-                />
+                <Link href={'https://www.linkedin.com/in/dariaradu/'} target='_blank'>
+                    <AiOutlineLinkedin
+                        className='hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100'
+                        size={30}
+                    />
+                </Link>
 
-                <AiOutlineTwitter
-                    className='hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100'
-                    size={30}
-                />
+                <Link href={'https://twitter.com/sparklesdaria'} target='_blank'>
+                    <AiOutlineTwitter
+                        className='hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100'
+                        size={30}
+                    />
+                </Link>
             </div>
         </div>
     </footer>
